@@ -24,7 +24,7 @@ start ~/.ssh/id_rsa.pub
 
 **3.登录 GitHub，打开 "SSH Keys" 页面**
 
-快捷地址：[https://github.com/settings/keys]()
+快捷地址：<https://github.com/settings/keys>
 
 ![](https://images2015.cnblogs.com/blog/446475/201512/446475-20151207095523105-1244401158.jpg)
 
