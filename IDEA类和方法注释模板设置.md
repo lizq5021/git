@@ -2,7 +2,7 @@
 
 ## 1.类注释
 
-> 首先我们来设置 IDEA 中类的模板：（IDEA 中在创建类时会自动给添加注释
+> 首先我们来设置 IDEA 中类的模板：（IDEA 中在创建类时会自动给添加注释)
 
 打开：file->setting->Editor->Filr and Code Templates->Includes->File Header
 
