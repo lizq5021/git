@@ -23,7 +23,7 @@
 
 > 1.打开 file->setting->Editor->LiveTemplates 点击右边上面那个绿色的 + 号，选择 Template Group 双击，然后弹出一个窗口，随便添加一个名字，我这里添加的是 MyGroup 然后点击 OK 
 >
-> 2.再次点击上面那个绿色的+号，选择Live Templates设置注释名字为 *****
+> 2.再次点击上面那个绿色的+号，选择Live Templates设置注释名字为 *
 
 ![](https://s1.ax1x.com/2018/08/26/PbZ5Ed.png)
 
