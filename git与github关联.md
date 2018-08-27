@@ -97,13 +97,9 @@ git commit -m "first commit"  #把添加的文件提交到版本库，并填写�
 > 到目前为止，我们完成了代码库的初始化，但代码是在本地，还没有提交到远程服务器，所以关键的来了，要提交到就远程代码服务器，进行以下两步
 
 ~~~ nginx
-#如果是克隆下来的 提示仓库已存在 不用管它
 git remote add origin https://github.com/lizq5021/git.git  #把本地库与远程库关联
-
 git push -u origin master    #第一次推送时
-
 git push origin master  #第一次推送后，直接使用该命令即可推送修改
 ~~~
 
 把本地库的内容推送到远程。使用 git push 命令，实际上是把当前分支 master 推送到远程。
-
