@@ -37,3 +37,34 @@ vim /etc/sysconfig/iptables
 service iptables restart
 ~~~
 
+![](https://s1.ax1x.com/2018/08/28/PL6YRJ.png)
+
+上传需要的软件
+
+[软件下载地址](http://file.suhuanzhen.cn/)
+
+> 使用wget命令
+
+~~~shell
+wget http://file.suhuanzhen.cn/apache-tomcat-7.0.90.tar.gz
+~~~
+
+> 1. 
+>    创建一个目录存放软件
+
+~~~shell
+mkdir -p /www/dev
+~~~
+
+> 1. 进入该目录
+
+~~~shell
+cd /www/dev
+~~~
+
+> 1. 使用rz上传文件 提示命令不存在安装
+
+~~~shell
+yum -y install lrzsz
+~~~
+
