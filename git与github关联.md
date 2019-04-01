@@ -105,3 +105,12 @@ git push origin master  #第一次推送后，直接使用该命令即可推送�
 ~~~
 
 把本地库的内容推送到远程。使用 git push 命令，实际上是把当前分支 master 推送到远程。
+
+~~~nginx
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/lizq5021/download-demo.git
+git push -u origin master
+~~~
+
