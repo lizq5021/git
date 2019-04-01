@@ -281,7 +281,5 @@ select population,
 from temp;
 
 
-
-
 ```
 
