@@ -88,6 +88,8 @@ git config --global user.email
 新建 a.txt
 
 ~~~ nginx
+git pull origin master #拉取最新
+
 git add a.txt  #添加文件到版本库（只是添加到缓存区），.代表添加文件夹下所有文件
 
 git commit -m "first commit"  #把添加的文件提交到版本库，并填写提交备注
