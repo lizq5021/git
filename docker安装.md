@@ -128,4 +128,16 @@ docker run -d -p 49160:22 -p 49161:1521 -e ORACLE_ALLOW_REMOTE=true
 
 ~~~
 
+**命令**
+
+~~~shell
+ss -tunl
+
+lsof -i:80
+
+netstat -ltunp
+
+#看看是哪个进程监听了
+netstat -tulpn | grep :80
+~~~
 
