@@ -201,7 +201,7 @@ vim /etc/profile
 > 在文件顶端输入如下内容
 
 ~~~shell
-export JAVA_HOME= /usr/jdk1.7.0_80  #jdk安装目录  
+export JAVA_HOME=/usr/jdk1.7.0_80  #jdk安装目录  
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export  PATH=${JAVA_HOME}/bin:$PATH
